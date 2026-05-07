@@ -8,16 +8,15 @@ int main()
     cout << "Welcome to the Guessing Game" << endl;
     cout << "Guess the number between 1 and 100: " << endl;
     cin >> guess;
-
-    while(guess != number)
-    {
-        if(guess < number)
-            cout << "Too low" << endl;
-        else if(guess > number)
-            cout << "Too high" << endl;
-        else
-            cout << "Congratulations!\nYou guessed the number!" << endl;
+    while (guess != number) {
+        if (guess > number) {
+            cout << "Too high\nTry again: " << endl;
+        } else {
+            cout << "Too low\nTry again: " << endl;
+        }
+        cin >> guess;
     }
+    cout << "Congratulations! You guessed the number!" << endl;
 }
 
 

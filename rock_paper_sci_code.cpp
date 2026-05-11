@@ -9,7 +9,7 @@ int main()
     cout << "Enter your choice (1 for Rock, 2 for Paper, 3 for Scissors): ";
     cin >> user_choice;
     if (user_choice < 1 || user_choice > 3) {
-        cout << "Invalid choice! Please enter 1, 2, or 3." << endl;
+        cout << "Invalid choice! Please enter 1, 2 or 3." << endl;
         return 1;
     }
     cout << "Computer chose: " << (computer_choice == 1 ? "Rock" : computer_choice == 2 ? "Paper" : "Scissors") << endl;
@@ -27,12 +27,12 @@ int main()
 
 // Description
 
-// This program is a simple Rock-Paper-Scissors game written in C++. The user selects either rock, paper, or scissors and the computer generates a random choice.
+// This program is a simple Rock-Paper-Scissors game written in C++. The user selects either rock, paper or scissors and the computer generates a random choice.
 // The program compares both choices using the game rules:
 // Rock beats Scissors
 // Scissors beats Paper
 // Paper beats Rock
-// After comparing the choices, the program displays whether the user wins, the computer wins, or the match is a draw.
+// After comparing the choices, the program displays whether the user wins, the computer wins or the match is a draw.
 
 // Concepts Used
 // Random number generation (rand())

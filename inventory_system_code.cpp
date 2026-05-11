@@ -110,7 +110,7 @@ int main()
 // Description
 
 // This program is a simple Inventory Management System written in C++.
-// The user can add items with their ID, name, and quantity.
+// The user can add items with their ID, name and quantity.
 // The program also allows the user to display all items
 // and search for items by ID or name.
 // A menu is used to perform different operations easily.
